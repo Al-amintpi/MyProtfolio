@@ -1,6 +1,6 @@
-
+ 
 @media only screen and (max-width: 1350px) and (min-width: 1200px) {
-	.product-before-feature::after {
+	.product-before-feature:after {
 		width: 84%;
 		height: 42%;
 		bottom: -18px;
@@ -11,7 +11,7 @@
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
-	.product-before-feature::after { 
+	.product-before-feature:after { 
 		width: 71%;
 		height: 57%;
 		bottom: -22px;
@@ -38,9 +38,15 @@
 }	
 
 .mobile-icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .menu-icon a {
@@ -72,14 +78,26 @@
 }
 
 .menuarea {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items:start;
-	flex-direction: column;
+	-webkit-box-align:start;
+	    -ms-flex-align:start;
+	        align-items:start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .menu ul li {
@@ -124,19 +142,27 @@
 }
 
 .main-product-feature-area{
-	column-count: 2;
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	        column-count: 2;
 }
 
 .expetise-main-area {
-	column-count: 2;
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	        column-count: 2;
 }
 
 .my-work {
-	column-count: 2;
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	        column-count: 2;
 }
 
 .footer-main-area {
-	column-count: 2;
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	        column-count: 2;
 	text-align: center;
 }
 
@@ -153,7 +179,9 @@
 }
 
 .main-product-feature-area{
-	column-count: 1;
+	-webkit-column-count: 1;
+	   -moz-column-count: 1;
+	        column-count: 1;
 }
 
 .product-feature {
@@ -164,7 +192,9 @@
 }
 
 .expetise-main-area {
-	column-count: 1;
+	-webkit-column-count: 1;
+	   -moz-column-count: 1;
+	        column-count: 1;
 }
 
 .skill-bar {
@@ -179,7 +209,9 @@
 }
 
 .my-work{
-	column-count: 1;
+	-webkit-column-count: 1;
+	   -moz-column-count: 1;
+	        column-count: 1;
 }
 
 .item {
@@ -210,7 +242,9 @@
 }
 
 .footer-main-area {
-	column-count: 1;
+	-webkit-column-count: 1;
+	   -moz-column-count: 1;
+	        column-count: 1;
 	 
 }
 
@@ -291,9 +325,16 @@
 }
 
 .content-skill {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
 	 display: flex; 
-	 flex-direction: column;
-	 align-items: start;
+	 -webkit-box-orient: vertical; 
+	 -webkit-box-direction: normal; 
+	     -ms-flex-direction: column; 
+	         flex-direction: column;
+	 -webkit-box-align: start;
+	     -ms-flex-align: start;
+	         align-items: start;
 	 
 }
 
@@ -319,5 +360,3 @@
 }
 
 }
-
- 
